@@ -1,0 +1,62 @@
+@media screen and (max-width: 480px) {
+   h1 {
+      font-size: 3rem;
+      margin-bottom: 50px;
+   }
+
+   .nav {
+      display: flex;
+      flex-direction: column;
+   }
+   .nav-menu {
+      width: 60%;
+      margin: 0 auto;
+      font-size: 1.5rem;
+      font-weight: bold;
+   }
+   .about,
+   .course-list {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   width: 100%;
+   }
+   .about img,
+   .about p {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+   .about p {
+      font-size: 2rem;
+      line-height: 2;
+   }
+   .first-course,
+   .second-course,
+   .third-course {
+      width: 100%;
+   }
+   .course-list p {
+      font-size: 2rem;
+      margin-bottom: 50px;
+   }
+   form {
+      width: 100%;
+   }
+
+   .info p {
+      margin-bottom: 40px;
+      font-size: 2rem;
+   }
+   input {
+      font-size: 2rem;
+   }
+   .btn {
+      margin-top: 40px;
+      width: 100%;
+      font-size: 2rem;
+   }
+   footer {
+      font-size: 1.5rem;
+      text-align: center;
+   }
+}
