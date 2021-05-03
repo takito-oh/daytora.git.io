@@ -1,103 +1,126 @@
 body {
-    font-family: "Noto Sans JP", verdana, arial, helvetica, sans-serif;
-    font-size: 16px;
-    text-align: center;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 100px;
+   font-family:"Noto Sans JP", verdana, arial, helvetica, sans-serif;
+   font-size: 16px;
+   width: 1200px;
+   margin: 0 auto;
+   text-align: center;
 }
 
 h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.nav {
+   display: flex ;
+   justify-content: space-between;
+   padding: 20px 100px;
+}
+
+.nav-menu {
+   /* float: right; */
+   display: flex;
+   justify-content: space-between;
 }
 
 .nav-menu li a {
-    text-decoration: none;
-    text-align: center;
-    color: #333;
-    margin: 0 15px;
+   text-decoration: none;
+   text-align: center;
+   color: #333;
+   margin: 0 15px;
 }
 
 .nav-menu li a:hover {
-    color: #ccc;
+   color: #ccc;
 }
 
 .header {
-    background-image: url(../img/main-vsual.png);
-    background-size: cover;
-    height: 400px;
+   background-image: url(../img/main-vsual.png);
+   background-size: cover;
+   height: 400px;
 }
 
-#about, #course, #info {
-    width: 88%;
-    margin: 80px auto;
+#about,
+#course,
+#info {
+   width: 88%;
+   margin: 80px auto;
 }
 
-.about img, .about p {
-    width: 45%;
-    text-align: left;
+.about,
+.course-list {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+}
+
+.about img,
+.about p {
+   width: 45%;
+   text-align: left;
 }
 
 .about p {
-    line-height: 1.5;
+   line-height: 1.5;
 }
 
-.about, .course-list {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-img {
-    border: none;
-    vertical-align: bottom;
+.first-course,
+.second-course,
+.third-course {
+   width: 29%;
 }
 
 .course-list img {
-    width: 100%;
-    margin-bottom: 5px;
+   width: 100%;
+   margin-bottom: 5px;
 }
 
-.info p {
-    margin-bottom: 5px;
+.info {
+   margin-top: 40px;
 }
 
 form {
-    display: inline-block;
+   display: inline-block;
+}
+
+.info p {
+   margin-bottom: 5px;
 }
 
 .info input {
-    width: 100%;
-    margin: 0 auto;
-    padding: 5px;
-    line-height: 2.5;
-    border-radius: 25px;
-    border: 1px solid #ccc;
+   width: 100%;
+   margin: 0 auto;
+   padding: 5px;
+   line-height: 2.5;
+   border-radius: 25px;
+   border: 1px solid #ccc;
 }
 
 .btn {
-    position: relative;
-    margin: 15px auto;
-    padding: 20px;
-    font-size: 1.2rem;
-    width: 300px;
-    background: rgb(218, 51, 85);
-    box-shadow: 0 6px 0 rgb(145, 0, 29);
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
+   position: relative;
+   margin: 15px auto;
+   padding: 20px;
+   font-size: 1.2rem;
+   width: 300px;
+   background: rgb(218, 51, 85);
+   box-shadow: 0 6px 0  rgb(145, 0, 29);
+   color: #fff;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+
+.btn:active {
+   box-shadow: none;
+   top: 6px;
 }
 
 footer {
-    margin-top: 100px;
-    margin-bottom: 40px;
-    font-size: 0.725rem;
-    border-top: 1px solid #ccc;
-    color: #444;
-    padding: 15px;
-    text-align: right;
+   margin-top: 100px;
+   margin-bottom: 40px;
+   font-size: 0.725rem;
+   border-top: 1px solid #ccc;
+   color: #444;
+   padding: 15px;
+   text-align: right;
 }
